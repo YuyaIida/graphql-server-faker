@@ -1,0 +1,28 @@
+type Query {
+  address: Address
+}
+
+type Address {
+  zipCode: String!
+  zipCodeByState: String!
+  city: String!
+  cityPrefix: String!
+  citySuffix: String!
+  streetName: String!
+  streetAddress: String!
+  streetSuffix: String!
+  streetPrefix: String!
+  secondaryAddress: String!
+  county: String!
+  country: String!
+  countryCode: String!
+  state: String!
+  stateAbbr: String!
+  latitude: String!
+  longitude: String!
+  direction: String!
+  cardinalDirection: String!
+  ordinalDirection: String!
+  nearbyGPSCoordinate: [String]!
+  timeZone: String!
+}
